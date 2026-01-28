@@ -27,12 +27,12 @@
 
 ## 0. Setup & Baseline (Lab Legal)
 ### 0.1 Hardware & OS
-- [ ] Satu mesin utama (laptop/PC) + ruang disk cukup
-- [ ] Install virtualisasi: VirtualBox/VMware (pilih 1)
-- [ ] Siapkan OS host (Windows/macOS/Linux) stable
+- [x] Satu mesin utama (laptop/PC) + ruang disk cukup
+- [x] Install virtualisasi: VirtualBox/VMware (pilih 1)
+- [x] Siapkan OS host (Windows/macOS/Linux) stable
 
 ### 0.2 Lab Environment (pilih 1 atau gabung)
-- [ ] Docker (wajib bila bisa)
+- [x] Docker (wajib bila bisa)
 - [ ] VM attacker (Kali/Parrot/Ubuntu)
 - [ ] VM target (Ubuntu + apps vulnerable / Metasploitable / Windows eval opsional)
 - [ ] Network mode: NAT vs Host-only (paham bedanya)
@@ -41,7 +41,7 @@
 ### 0.3 Tools Wajib (konsep + pemakaian aman)
 - [ ] Git
 - [ ] Linux CLI (bash)
-- [ ] Browser DevTools
+- [x] Browser DevTools
 - [ ] Burp Suite Community (proxy, repeater, intruder basic *untuk lab*)
 - [ ] Nmap (discovery & service enumeration)
 - [ ] Wireshark/tcpdump (traffic analysis)
@@ -49,24 +49,23 @@
 - [ ] Password manager untuk lab (jangan hardcode)
 
 ### 0.4 Target Lab Legal (minimal 2)
-- [ ] OWASP Juice Shop (web)
-- [ ] DVWA / bWAPP (web)
-- [ ] WebGoat (training)
+- [x] OWASP Juice Shop (web)
+- [x] DVWA / bWAPP (web)
+- [x] WebGoat (training)
 - [ ] Local intentionally vulnerable API (buat sendiri) — opsional
 
 ### 0.5 Repo Hygiene
-- [ ] `.gitignore` untuk logs, dumps, secrets
-- [ ] Rule masking: token/password selalu `****`
-- [ ] Template catatan & report siap
+- [x] `.gitignore` untuk logs, dumps, secrets
+- [x] Rule masking: token/password selalu `****`
+- [x] Template catatan & report siap
 
 **Bukti:**
-- [ ] `labs/00-setup/README.md`:
-  - topologi lab (diagram singkat)
-  - list tools + versi
-  - screenshot VM/Docker running
-  - cara reset lab (snapshot/compose down)
-  - issue + solusi
-
+- [x] `labs/00-setup/README.md`:
+  - [ ] topologi lab (diagram singkat)
+  - [ ] list tools + versi
+  - [x] screenshot Docker running (container + halaman lab)
+  - [x] cara reset lab (compose down)
+  - [ ] issue + solusi
 ---
 
 ## 1. Fundamental Wajib (Komputer, Network, Web)
